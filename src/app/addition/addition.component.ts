@@ -12,8 +12,6 @@ export class AdditionComponent implements OnInit {
   nombre_1: number = 0;
   nombre_2: number = 0;
 
-  somme:number = this.nombre_1 + this.nombre_2
-
   constructor() { }
 
   ngOnInit() {

@@ -1,4 +1,16 @@
 <h1 id="titre1">{{ title }}</h1>
-<app-personnages></app-personnages>
-<hr>
+<br>
+<nav>
+    <a routerLink="/">Accueil</a> - 
+    <a routerLink="/personnages">Liste des personnages</a> - 
+    <a routerLink="/contact">Contact</a> - 
+    <a routerLink="/addition">Addition</a> - 
+    <a routerLink="/compteur">Compteur</a>
+</nav>
+
+<router-outlet></router-outlet>
+<!-- <!-- <app-personnages></!-->
+<!-- <hr>
 <app-addition></app-addition>
+<hr> -->
+<app-personnage-detail></app-personnage-detail>

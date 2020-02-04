@@ -1,7 +1,7 @@
 import { Personnage } from './personnage';
 
 export const PERSONNAGES: Personnage[] = [
-    { id: 11, name: 'Tryphon Tournesol' },
+    { id: 11, name: 'Tryphon Tournesol', },
     { id: 2, name: 'Séraphin Lampion' },
     { id: 13, name: 'Capitaine Haddock' },
     { id: 14, name: 'Rastapopoulos' },

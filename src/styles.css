@@ -14,14 +14,32 @@ h1 {
     color: #444;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
+    background-color: orange;
   }
   body {
     margin: 2em;
+    background-color: paleturquoise;
   }
   body, input[type="text"], button {
     color: #333;
     font-family: Cambria, Georgia;
   }
+
+  #conteneur {
+    margin: 0 auto;
+    width:1000px;
+    background-color: whitesmoke;
+    padding: 25px;
+
+  }
+
+  nav {
+      width: 80%;
+      background-color: orchid;
+      padding: 10px;
+      margin: 0 auto;
+  }
+
   /* everywhere else */
   * {
     font-family: Arial, Helvetica, sans-serif;

@@ -1,3 +1,5 @@
+// c'est là que l'on créé les routes de notre sites pour accéder aux pages
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Routes, RouterModule } from '@angular/router';
@@ -12,8 +14,8 @@ const routes: Routes = [
   { path: '', redirectTo: '/personnages', pathMatch: 'full'},
   { path:  'personnages', component: PersonnagesComponent },
   { path:  'contact', component: ContactComponent },
-  { path: 'addition', component: AdditionComponent},
-  { path: 'compteur', component: CompteurComponent}
+  { path: 'addition', component: AdditionComponent },
+  { path: 'compteur', component: CompteurComponent }
 ];
 
 @NgModule({
